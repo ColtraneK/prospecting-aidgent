@@ -1,0 +1,188 @@
+{
+  "spreadsheetId": "synthetic-test-copy",
+  "sheetId": 329414667,
+  "startRowIndex": 0,
+  "workbook": {
+    "sheets": [
+      {
+        "properties": {
+          "sheetId": 329414667,
+          "title": "Leads",
+          "index": 1,
+          "sheetType": "GRID",
+          "gridProperties": {
+            "rowCount": 1000,
+            "columnCount": 12,
+            "frozenRowCount": 1
+          }
+        }
+      }
+    ]
+  },
+  "rows": [
+    {
+      "values": [
+        {
+          "userEnteredValue": {
+            "stringValue": "Person"
+          },
+          "note": "Verified person's name.\n\nProspecting Aidgent field: person; owner: agent. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Role / company"
+          },
+          "note": "Their relevant role and business.\n\nProspecting Aidgent field: role; owner: agent. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Fit"
+          },
+          "note": "Why this person fits your business and the goal of the conversation.\n\nProspecting Aidgent field: fit; owner: agent. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Why now"
+          },
+          "note": "A specific reason to reach out; distinguish a dated signal from general fit.\n\nProspecting Aidgent field: why_now; owner: agent. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Message"
+          },
+          "note": "A grounded draft for you to edit and send yourself.\n\nProspecting Aidgent field: message; owner: agent. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Feedback"
+          },
+          "note": "YOUR FIELD. Tell the agent what is useful, wrong, or worth changing. It must preserve this.\n\nProspecting Aidgent field: feedback; owner: human. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Status"
+          },
+          "note": "YOUR FIELD. Track your decision or progress. The agent must preserve it.\n\nProspecting Aidgent field: status; owner: human. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Evidence URL"
+          },
+          "note": "One bare clickable URL to the actual relevant post, article, job, or source. Explanation belongs in Context.\n\nProspecting Aidgent field: evidence_url; owner: agent. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "LinkedIn / contact URL"
+          },
+          "note": "One bare clickable personal LinkedIn URL preferred. If unavailable, use a verified professional contact URL and explain the fallback in Context.\n\nProspecting Aidgent field: contact_url; owner: agent. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Opportunity"
+          },
+          "note": "Customer, referral partner, vendor partner, or another goal you choose.\n\nProspecting Aidgent field: opportunity_type; owner: agent. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Suggested comment"
+          },
+          "note": "Optional. Only draft a comment when a real linked post supports it.\n\nProspecting Aidgent field: comment; owner: agent. Keep this note when renaming the heading."
+        },
+        {
+          "userEnteredValue": {
+            "stringValue": "Context / evidence date"
+          },
+          "note": "Useful prior exchanges, evidence date, source limitations, and uncertainty. No repeated connection boilerplate or raw private message dumps.\n\nProspecting Aidgent field: context; owner: agent. Keep this note when renaming the heading."
+        }
+      ]
+    },
+    {
+      "values": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "dataValidation": {
+            "condition": {
+              "type": "ONE_OF_LIST",
+              "values": [
+                {
+                  "userEnteredValue": "New"
+                },
+                {
+                  "userEnteredValue": "Review"
+                },
+                {
+                  "userEnteredValue": "Interested"
+                },
+                {
+                  "userEnteredValue": "Contacted"
+                },
+                {
+                  "userEnteredValue": "Follow up"
+                },
+                {
+                  "userEnteredValue": "Not a fit"
+                },
+                {
+                  "userEnteredValue": "Done"
+                },
+                {
+                  "userEnteredValue": "Archive"
+                }
+              ]
+            },
+            "showCustomUi": true
+          }
+        }
+      ]
+    },
+    {
+      "values": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {
+          "dataValidation": {
+            "condition": {
+              "type": "ONE_OF_LIST",
+              "values": [
+                {
+                  "userEnteredValue": "New"
+                },
+                {
+                  "userEnteredValue": "Review"
+                },
+                {
+                  "userEnteredValue": "Interested"
+                },
+                {
+                  "userEnteredValue": "Contacted"
+                },
+                {
+                  "userEnteredValue": "Follow up"
+                },
+                {
+                  "userEnteredValue": "Not a fit"
+                },
+                {
+                  "userEnteredValue": "Done"
+                },
+                {
+                  "userEnteredValue": "Archive"
+                }
+              ]
+            },
+            "showCustomUi": true
+          }
+        }
+      ]
+    }
+  ]
+}

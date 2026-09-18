@@ -1,0 +1,20 @@
+{
+  "name": "prospecting-aidgent",
+  "interface": {
+    "displayName": "Prospecting Aidgent"
+  },
+  "plugins": [
+    {
+      "name": "prospecting-aidgent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/prospecting-aidgent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

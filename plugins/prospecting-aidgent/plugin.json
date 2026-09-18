@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "prospecting-aidgent",
+  "version": "0.4.0+codex.20260918170326",
+  "description": "Find worthwhile business conversations and maintain a feedback-driven Google Sheet.",
+  "author": {
+    "name": "Aidgentic"
+  },
+  "homepage": "https://aidgentic.com",
+  "repository": "https://github.com/ColtraneK/prospecting-aidgent",
+  "license": "MIT",
+  "keywords": [
+    "prospecting",
+    "research",
+    "relationships"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Prospecting Aidgent",
+        "shortDescription": "Find the right people, reasons, and words to reach out.",
+        "longDescription": "Learns your business, researches relevant past conversations and new public prospects, and maintains your Google Sheet. You correct its judgment, track outcomes, and send every message yourself. Local workspace and connected Google Drive required for the full workflow.",
+        "developerName": "Aidgentic",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ],
+        "websiteURL": "https://aidgentic.com",
+        "brandColor": "#2563EB",
+        "defaultPrompt": [
+          "Set up Prospecting Aidgent for my business.",
+          "Refresh my Leads using my feedback.",
+          "Find more people like the leads I marked Interested."
+        ]
+      }
+    }
+  }
+}

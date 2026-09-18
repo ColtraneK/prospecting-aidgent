@@ -1,0 +1,7 @@
+{
+  "name": "prospecting-aidgent-marketplace",
+  "private": true,
+  "scripts": {
+    "test": "npm --prefix plugins/prospecting-aidgent test"
+  }
+}

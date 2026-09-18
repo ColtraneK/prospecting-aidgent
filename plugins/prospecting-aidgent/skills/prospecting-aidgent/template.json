@@ -1,0 +1,8 @@
+{
+  "schema": "aidgent-sheet-1",
+  "spreadsheetId": "1D3qZ6uWJMIYYJC1EvHVHSYV8Ow_T793rbAYzLvmYhHY",
+  "copyUrl": "https://docs.google.com/spreadsheets/d/1D3qZ6uWJMIYYJC1EvHVHSYV8Ow_T793rbAYzLvmYhHY/copy",
+  "humanFields": ["feedback", "status"],
+  "fieldResolution": ["namedRanges", "headerNotes", "recognizedHeadings"],
+  "onAmbiguity": "stop-and-clarify"
+}

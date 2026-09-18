@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+data/
+state/
+plans/
+research/private/
+*.log
+*.zip
+credentials*.json
+service-account*.json
+__pycache__/

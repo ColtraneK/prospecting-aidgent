@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prospecting Aidgent"
+  short_description: "Find worthwhile conversations and maintain your lead Sheet."
+  default_prompt: "Use $prospecting-aidgent to set up prospecting for my business."
