@@ -19,3 +19,5 @@ Use a new business folder, not this repository, for prospecting. Installing does
 For updates, ask Codex to refresh this marketplace, reinstall the plugin, verify the version, and then start a new task. It should preserve unrelated plugins and settings.
 
 Packaging follows [OpenAI's plugin documentation](https://developers.openai.com/plugins/build/plugins). CLI command availability was checked on Codex CLI 0.155.0-alpha.2.6. See [verification status](VERIFICATION.md) for what was actually exercised.
+
+The README's exact attendee prompt successfully installed version `0.4.0+codex.20260918170326` from this GitHub repository in an isolated Windows Codex profile. A separate fresh task discovered the skill and began setup for a fictional business. Automatic approval review was enabled for the test; attendees may need to approve access themselves. The desktop plugin-picker UI, other operating systems, and completed prospect research were not covered by that test.
