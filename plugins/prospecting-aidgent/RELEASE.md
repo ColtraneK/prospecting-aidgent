@@ -2,6 +2,14 @@
 
 This package is prepared for review, not a claim that every release acceptance gate has passed. This public release candidate keeps the behavioral and live checks in TESTING.md pending until actually executed; publication does not satisfy them. An actual scheduled run is required to verify unattended access; a manual run does not establish it.
 
+## Conversation and continuity patch
+
+Current package version: `0.4.0+codex.20260918215526`.
+
+First delivery now explicitly connects actual opportunities to ongoing use, saved feedback, optional inbox context and opt-in routines. The assistant adapts explanation depth and writing voice, explains saved changes, and provides practical sales guidance through the user's real decisions. Optional recap tips and a separately agreed midweek check-in respect existing schedule scope and declined offers. Recommendations favor relevant questions, proportionate contributions, accurate claims and room to decline.
+
+Workspace initialization adds missing continuity defaults while preserving existing preferences, decisions and unknown fields; malformed state is reported rather than replaced. The public README and user guide include practical use cases, the weekly rhythm and clear limits. Research qualification, Sheet schema and outbound restrictions are unchanged. The behavioral and live scenarios in TESTING.md remain separate from automated helper tests.
+
 ## Reliability corrections
 
 - Equivalent LinkedIn profile URL variants share the existing identity normalization used by the importer.
@@ -41,4 +49,4 @@ Sheet preflight detects stale snapshots but cannot lock Google Sheets against si
 
 ## Public packaging
 
-Published package version: `0.4.0+codex.20260918170326`. Distribution-only update: repository marketplace, portable manifest, beginner README and explicit publication allowlist. Runtime helpers, skill instructions, references, template configuration and synthetic tests are unchanged from the compared source. No private workspace or original Git history is included. See repository VERIFICATION.md for tested results and release blockers.
+Original publication version: `0.4.0+codex.20260918170326`. Distribution-only update: repository marketplace, portable manifest, beginner README and explicit publication allowlist. Runtime helpers, skill instructions, references, template configuration and synthetic tests are unchanged from the compared source. No private workspace or original Git history is included. See repository VERIFICATION.md for tested results and release blockers.

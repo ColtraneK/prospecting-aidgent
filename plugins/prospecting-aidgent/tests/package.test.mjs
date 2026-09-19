@@ -6,6 +6,10 @@ import {fileURLToPath} from 'node:url';
 const root=fileURLToPath(new URL('../',import.meta.url));
 test('one self-contained skill with all bundled references and helpers',()=>{
   const manifest=JSON.parse(fs.readFileSync(path.join(root,'.codex-plugin/plugin.json'),'utf8'));
+  const portable=JSON.parse(fs.readFileSync(path.join(root,'plugin.json'),'utf8'));
+  assert.equal(portable.name,manifest.name);
+  assert.equal(portable.version,manifest.version);
+  assert.deepEqual(portable.extensions['com.openai'].interface,manifest.interface);
   assert.equal(manifest.name,'prospecting-aidgent');assert.match(manifest.version,/^0\.4\.0(?:\+|$)/);
   assert.deepEqual(fs.readdirSync(path.join(root,'skills')),['prospecting-aidgent']);
   for(const name of ['SKILL.md','template.json','references/research.md','references/research-framework.md','references/relationships.md','references/sheets.md','references/continuing.md','references/conversations.md','scripts/workspace.mjs','scripts/relationship_index.mjs','scripts/sheet.mjs','scripts/sheet-schema.mjs']) assert.ok(fs.statSync(path.join(root,'skills/prospecting-aidgent',name)).isFile());

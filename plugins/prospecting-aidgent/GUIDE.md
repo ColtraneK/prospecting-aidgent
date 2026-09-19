@@ -32,6 +32,16 @@ Ask “Help me prepare for this conversation” for a concise, sourced brief wit
 
 No new tabs or onboarding forms are required. Research and Sheet protections are unchanged. It still does not send messages, book meetings, offer access, make introductions or spend money for you. Briefs and debriefs are instruction-guided capabilities; the behavioral scenarios in TESTING.md must be checked in real use, not inferred from unit tests.
 
+## Feedback, voice and optional help
+
+The assistant saves corrections in your project's business notes and reads them alongside current Sheet feedback on later runs. It should tell you what it saved and how the recommendation or draft changes. Say “shorter for this person” for a one-off adjustment, or “keep all my openings short” for a general preference. You can replace or withdraw a preference. Examples you actually wrote help it learn your voice; it should not copy someone else's writing style from an export.
+
+After the first list, expect a short explanation of a real opportunity, how to give feedback, what the assistant can do next, and the optional weekly routine and inbox cross-reference. Ask “what's next?” when you want a recommendation. You can ask for a small comparison table or a brief explanation without learning a set of commands.
+
+Sales guidance can help with relevant openings, discovery questions, a reply or objection you supply, and follow-up decisions. Sometimes the right action is to wait or accept a decline. A potential fit does not establish a need or willingness to buy. You choose the conversations and what to send.
+
+An optional practical tip can accompany an approved weekly recap; a midweek check-in requires agreement on its own timing and scope. You can choose fewer tips or no coaching. These choices are saved so the agent need not repeatedly offer something you declined. Inbox cross-referencing likewise needs an agreed mailbox, people and period, and an available authorized connection. Neither option is required to continue prospecting.
+
 ## The Sheet
 
 Optional visual HTML relationship maps, briefs and weekly plans can live privately in your project and be revisited in later tasks. They include an update date and Sheet link. The Sheet remains the main working record; local visuals are not automatically hosted or accessible from another device.

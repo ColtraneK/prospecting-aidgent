@@ -2,9 +2,19 @@
 
 Release candidate. Publication is not a claim that the complete webinar workflow passed.
 
-The source and installed package both reported `0.4.0+codex.20260918164013`; all 29 source files matched byte for byte before packaging. Helpers, skill instructions, research references, template configuration and synthetic tests are preserved. Changes are limited to distribution metadata and documentation.
+For the original publication, the source and installed package both reported `0.4.0+codex.20260918164013`; all 29 source files matched byte for byte before packaging. Helpers, skill instructions, research references, template configuration and synthetic tests are preserved. Changes are limited to distribution metadata and documentation.
 
-## Checks
+## Current conversation and continuity patch
+
+Version: `0.4.0+codex.20260918215526`. This patch changes conversation instructions, adds continuity-default migration, and expands the public guide. Original publication results below are historical, not proof of the changed behavior.
+
+- All **42 synthetic package tests passed**, including upgrade preservation, unknown fields, declined choices, saved business notes, repeated initialization and refusal to replace malformed state.
+- The two plugin manifests share the same version and interface. The publication allowlist includes the new synthetic continuity test.
+- Official plugin-creator and skill-creator validators passed. An allowlist audit covered **42 public files**; no private workspace paths, exports, credentials or personal Sheet links were found. Eight unchanged core files, including Sheet helpers, archive helpers, qualification framework and template configuration, match the previously installed release byte for byte.
+- New behavioral scenarios cover first-delivery guidance, remembered voice/preferences in a fresh task, optional inbox scope, opt-in tips/check-ins and respectful sales recommendations. These scenarios are **pending the next conversation retest**; no live inbox, business Sheet, or schedule was used for this patch.
+- Automated state tests verify file handling, not whether the model consistently learns or follows a writing preference. Actual unattended execution remains unverified by this patch.
+
+## Original publication checks
 
 - Public blank template: read-only check on 2026-09-18 found only headers in Leads and Archive; Start Here held setup guidance and counts.
 - Opening explanation: instruction review confirms a short orientation, correction examples, and optional export. Behavioral execution is tracked separately below.

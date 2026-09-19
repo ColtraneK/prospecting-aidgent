@@ -34,6 +34,7 @@
   "plugins/prospecting-aidgent/skills/prospecting-aidgent/scripts/sheet.mjs",
   "plugins/prospecting-aidgent/skills/prospecting-aidgent/scripts/workspace.mjs",
   "plugins/prospecting-aidgent/skills/prospecting-aidgent/template.json",
+  "plugins/prospecting-aidgent/tests/continuity.test.mjs",
   "plugins/prospecting-aidgent/tests/core.test.mjs",
   "plugins/prospecting-aidgent/tests/package.test.mjs",
   "plugins/prospecting-aidgent/tests/relationships.test.mjs",
